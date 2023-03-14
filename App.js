@@ -1,8 +1,8 @@
 import React, { createContext, useState } from "react"
-import Images from "./components/Images";
-import Jumbutron from "./components/Jumbutron";
-import SearchField from "./components/SearchField";
-import useAxios from "./hooks/useAxios"
+import Images from "../components/Images";
+import Jumbutron from "../components/Jumbutron";
+import SearchField from "../components/SearchField";
+import useAxios from "../hooks/useAxios"
 
 export const ImageContext=createContext()
 
